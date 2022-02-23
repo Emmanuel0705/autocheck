@@ -4,7 +4,7 @@
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
-  
+
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
@@ -45,17 +45,19 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Endpoints
 
 ```bash
-# unit tests
-$ npm run test
+# 1. Top 10 most occurring words in the titles of the last 25 stories
+$ BASEURL/api/top-ten-words
 
-# e2e tests
-$ npm run test:e2e
+# 2. Top 10 most occurring words in the titles of the post of exactly the last week
+# still under development
+$ BASEURL/api/ttw-last-week
 
-# test coverage
-$ npm run test:cov
+# 3. Top 10 most occurring words in titles of the last 600 stories of users with at least 10.000 karma
+#  still under development
+$ BASEURL/api/ttw-user-karma
 ```
 
 ## Support
@@ -64,10 +66,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+-   Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
+-   Website - [https://nestjs.com](https://nestjs.com/)
+-   Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
-  Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
