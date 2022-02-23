@@ -1,0 +1,1 @@
+{"version":3,"file":"harkerNews.js","sourceRoot":"","sources":["../../src/services/harkerNews.ts"],"names":[],"mappings":";;;AAAA,0DAA0B;AAC1B,MAAM,UAAU;IACZ,KAAK,CAAC,aAAa;QACf,OAAO,MAAM,eAAK,CAAC,GAAG,CAClB,oEAAoE,CACvE,CAAC;IACN,CAAC;IACD,KAAK,CAAC,YAAY,CAAC,EAAU;QACzB,OAAO,MAAM,eAAK,CAAC,GAAG,CAClB,8CAA8C,EAAE,oBAAoB,CACvE,CAAC;IACN,CAAC;CACJ;AAED,kBAAe,UAAU,CAAC"}
